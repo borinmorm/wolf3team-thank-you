@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(87, 85, 85);
+}
+
+.content{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.content h1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    transition: all 0.5s ease-out;
+}
+
+.content h1 a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.5s ease-out;
+}
+
+.content h1 a:hover{
+    color: rgb(240, 169, 37);
+}
+
+.content p{
+    font-size: 20px;
+    text-align: center;
+}
+
